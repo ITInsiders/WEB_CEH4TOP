@@ -1,2 +1,4 @@
 ErrorDocument 404 /_error/404.php
 
+RewriteEngine on
+RewriteRule ^laba([\d]+)$ _labs/lab$1.php
